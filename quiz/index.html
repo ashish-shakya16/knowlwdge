@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h2>QUIZ For General Knowledge</h2>
+        <div id="question-container"></div>
+        <div id="answer-buttons" class="btn-container"></div>
+        <div id="result-container" class="hide">
+            <p id="score"></p>
+        </div>
+        <div id="timer-display"></div>
+        <div id="feedback" class="hide"></div>
+    </div>
+    <div class="control-buttons">
+        <button id="restart-btn" class="btn">Restart Quiz</button>
+        <button id="quit-btn" class="btn">Quit Quiz</button>
+    </div>
+
+    <!-- Audio files for correct and incorrect answers -->
+    <audio id="correct-sound" src="correct.mp3"></audio>
+    <audio id="incorrect-sound" src="incorrectsound.mp3"></audio>
+    <script src="javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6A1B9A;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.quiz-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    color: #333;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.hide {
+    display: none;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+/* Timer display */
+#timer-display {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Feedback */
+#feedback {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.control-buttons {
+    margin-top: 20px;
+}
+
+
+.control-buttons .btn {
+    padding: 5px 10px; 
+    font-size: 14px;   
+    width: auto;      
+}
+
+#restart-btn {
+    background-color: #FFA500; 
+}
+
+#quit-btn {
+    background-color: #FF6347;
+}
+
+#restart-btn:hover {
+    background-color: #FF8C00; 
+}
+
+#quit-btn:hover {
+    background-color: #FF4500; 
+}
